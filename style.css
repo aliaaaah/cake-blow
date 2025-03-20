@@ -2,6 +2,23 @@ body {
   background-color: #333;
 }
 
+/* Displaying Happy Birthday Kerin */
+.birthday-message {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Arial', sans-serif;
+  font-size: 30px;
+  color: #D2691E;
+  background-color: #F0E4D0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #553C13;
+}
+
 .candle-count-display {
   text-align: center;
   margin-top: 150px;
@@ -79,6 +96,7 @@ body {
   height: 90px;
   border-radius: 50%;
 }
+
 .icing:before {
   content: "";
   position: absolute;
@@ -93,12 +111,12 @@ body {
 }
 
 .drip {
- display: block;
+  display: block;
   width: 50px;
   height: 60px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  background-color: #f0e4d0; 
+  background-color: #f0e4d0;
 }
 
 .drip1 {
@@ -133,6 +151,7 @@ body {
   margin-left: -8px;
   z-index: 10;
 }
+
 .candle:before {
   content: "";
   position: absolute;
